@@ -1,0 +1,36 @@
+body{
+    padding: 0 10rem;
+}
+
+.textbutton{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 500px;
+    padding: 7px;
+    margin: 5px;
+}
+button{
+    width: 85px;
+    height: 33px;
+    font-size: 19px;
+    font-family: monospace;
+    font-style: revert;
+    background-color: burlywood;
+    border: blueviolet 1px solid;
+}
+ul{
+    list-style: none;
+    border-left: 5px solid darkcyan;
+    padding-left: 5px;
+}
+button:hover{
+    transition: all .5s ease-in-out;
+    background-color: #4444;
+}
+
